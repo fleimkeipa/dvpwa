@@ -194,7 +194,7 @@ Mitigation
 Escape all untrusted content, when you output it. In this example, to mitigate
 this kind of attack you can set ``autoescape=True`` when setting up templating
 engine (Jinja2) in ``sqli/app.py``.
-You can also sanitize text, when users input it and prohibit different kinds of
+You can also sanitize text, when users, input it and prohibit different kinds of
 code injection.
 
 Bad choice for storing passwords
